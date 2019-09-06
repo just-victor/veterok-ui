@@ -1,0 +1,13 @@
+<div style="background: antiquewhite">
+  <div class="lol">
+    <div class="wind-value__main">
+      <div>{{getSpeedMeters()}}</div><div>m/s</div>
+    </div>
+    <div>
+      <div class="wind-value__additional">
+        <div class="wind-value">{{getSpeedKilometers()}}</div><div class="wind-value">km/h</div>
+      </div>
+      <img class="wind-direction" [style.transform]="getRotateValue()" src="assets/img/wind-arrow.png">
+    </div>
+  </div>
+</div>

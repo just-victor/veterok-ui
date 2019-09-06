@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./ngx-src",
+    "allowJs": true,
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [ "es2018", "dom" ],
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "paths": {
+      "@qv-bid/*": ["app/bid/*"],
+      "@qv-bid-grid-view/*": ["app/bid-grid-view/*"],
+      "@qv-bid-history/*": ["app/bid-history/*"],
+      "@qv-common/*": ["app/common/*"],
+      "@qv-shared/*": ["app/shared/*"],
+      "@qv-header/*": ["app/header/*"],
+      "@qv-loi/*": ["app/loi/*"],
+      "@qv-insights/*": ["app/insights/*"],
+      "@qv-company/*": ["app/company/*"],
+      "@qv-user/*": ["app/user/*"],
+      "@qv-testing/*": ["testing/*"],
+      "@qv-assets/*": ["assets/*"],
+      "@qv-env/*": ["environments/*"],
+      "@qv-term/*": ["app/term/*"]
+    }
+  },
+  "angularCompilerOptions": {
+    "preserveWhitespaces": false
+  },
+  "exclude": [
+    "./node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+  ]
+}

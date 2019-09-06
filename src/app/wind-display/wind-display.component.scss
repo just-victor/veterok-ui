@@ -1,0 +1,59 @@
+.lol {
+  background: beige;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.wind-value {
+
+  &__main {
+    display: inline-flex;
+    font-size: 200px;
+    font-family: Arial;
+  }
+  &__additional {
+    display: inline-flex;
+    font-size: 80px;
+    font-family: Arial;
+  }
+}
+
+.wind-direction {
+  width: auto;
+  height: 100px;
+  margin-left: 80px;
+
+  &__n {
+    transform: rotate(180deg);
+  }
+
+  &__ne {
+    transform: rotate(225deg);
+  }
+
+  &__e {
+    transform: rotate(-90deg);
+  }
+
+  &__se {
+    transform: rotate(-45deg);
+  }
+
+  &__s {
+    transform: rotate(0deg);
+  }
+
+  &__sw {
+    transform: rotate(45deg);
+  }
+
+  &__w {
+    transform: rotate(90deg);
+  }
+
+  &__nw {
+     transform: rotate(135deg);
+   }
+}
